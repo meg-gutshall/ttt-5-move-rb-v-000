@@ -15,3 +15,12 @@ end
 def move(board, converted_input, char = "X")
   board[converted_input] = char
 end
+
+# Alternate Solution
+# def input_to_index(user_input)
+#   user_input.to_i - 1
+# end
+
+# def move(board, index, current_player = "X")
+#   board[index] = current_player
+# end
